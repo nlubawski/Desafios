@@ -1,0 +1,167 @@
+@media screen and (max-width: 900px) {
+  * {
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    --corBack: #4e71fd;
+    --corBackText: #ffffff;
+  }
+  nav {
+    background-color: var(--corBack);
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  nav ul li a {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--corBackText);
+  }
+
+  .sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .sobre img {
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .sobre p {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .projetos,
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 2rem;
+    background-color: var(--corBack);
+    height: 35px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  button a {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--corBackText);
+  }
+
+  .contato,
+  .projetos {
+    font-size: 35px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  * {
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    --corBack: #523e8b;
+    --corBackText: #ffffff;
+  }
+  nav {
+    background-color: var(--corBack);
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  nav ul li a {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--corBackText);
+  }
+
+  .sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .sobre img {
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .sobre p {
+    font-size: 35px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .projetos,
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 2rem;
+    background-color: var(--corBack);
+    height: 75px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  button a {
+    font-size: 55px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--corBackText);
+  }
+
+  .contato,
+  .projetos {
+    font-size: 55px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}

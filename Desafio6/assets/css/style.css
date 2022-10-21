@@ -1,0 +1,22 @@
+
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 100%;
+    margin-top: 4rem;
+}
+
+section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    margin-right: 0%;
+    max-width: 100%; width: 350px;
+}

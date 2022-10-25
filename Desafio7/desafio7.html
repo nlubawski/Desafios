@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Stop 4All</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container__botao" />
+        <label for="menu" class="container__rotulo">
+          <span class="cabecalho__menu-hamburguer"></span>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__titulo">Categorias</li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Pizza e Churrasco</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Lanche</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Sobremesa</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Bebida</a>
+          </li>
+        </ul>
+
+        <img
+          src="./img/Logo.png"
+          alt="Logo da Stop 4All"
+          class="container__imagem"
+        />
+        <h1 class="container__titulo">
+          <b class="container__titulo--negrito">Stop</b>4All
+        </h1>
+      </div>
+
+      <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao" />
+        <label for="opcoes-menu" class="opcoes__rotulo">
+          <li class="opcoes__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Pizza e Churrasco</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Lanche</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Sobremesa</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Bebida</a>
+          </li>
+        </ul>
+      </ul>
+
+      <div class="container">
+        <a href="#"
+          ><img
+            src="/img/Favoritos.svg"
+            alt="Meus Favoritos"
+            class="container__imagem container__imagem-transparente"
+        /></a>
+        <a href="#" class="container__link"
+          ><img
+            src="./img/Usuario.png"
+            alt="Meu Perfil"
+            class="container__imagem"
+          />
+          <p class="container__texto">Meu Perfil</p>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <h2 class="banner__titulo">O que vai ser hoje?</h2>
+        <p class="banner__texto">
+          Se prepare para o melhor momento do seu dia!
+        </p>
+        <input
+          type="search"
+          class="banner__pesquisa"
+          placeholder="Qual será seu próximo pedido? "
+        />
+      </section>
+      <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel__container">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./img/xbaconArtesanal.png" alt="x-bacon artesanal" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/pizza4Queijos.png" alt="pizza quatro queijos" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./img/TabuaPicanhaPaoAlho.png"
+                  alt="Tabua de picanha com pão de alho"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/xbaconArtesanal.png" alt="x-bacon artesanal" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./img/pizzaMignonCheddar.png"
+                  alt="Pizza de filé mignon com cheddar"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./img/tabuaPicanhaFritas.png"
+                  alt="Tabua de Picanha com fritas"
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="./img/xfragoSalada.png" alt="x-frango salada" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/TabuaFrios.png" alt="Tabua de Frios" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./img/pizzaFrangoCatupiry.png"
+                  alt="Pizza de frango com catupiry"
+                />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="card">
+            <div class="card__descricao">
+              <div class="descricao">
+                <img src="./img/Estrelinhas.png" alt="Avaliacao 5 estrelas" />
+                <h3 class="descricao__titulo">Sugestão do Dia</h3>
+                <h2 class="descricao__titulo-livro">Pizza de Sorvete</h2>
+                <p class="descricao__texto">
+                  Uma deliciona massa de pão de ló, assada e crocante com
+                  sorvete de creme e calda de chocolate
+                </p>
+              </div>
+              <img
+                src="./img/pizzaDeSorvete.png"
+                alt="Pizza de Sorvete"
+                class="descricao__imagem"
+              />
+            </div>
+            <div class="card__botoes">
+              <ul class="botoes">
+                <li class="botoes__item">
+                  <img src="./img/Favoritos.svg" alt="Favoritar livro" />
+                </li>
+              </ul>
+              <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="topicos">
+        <h2 class="topicos__titulo">Que tal uma dessas?</h2>
+        <ul class="topicos__lista">
+          <li class="topicos_item">
+            <a href="#" class="topicos__link">X-Bacon</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos__link">Hot Dog com Cream Cheese</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos__link">Pizza Vegana</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos__link">Tábua de Churrasco</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos__link">Pizza de Sorvete</a>
+          </li>
+          <li class="topicos_item">
+            <a href="#" class="topicos__link">X-Tentação</a>
+          </li>
+        </ul>
+      </section>
+      <hr />
+    </main>
+    <footer class="rodape">
+      <h2 class="rodape__titulo">Stop 4All <span class="rodape__licenca">©  </span><span class="rodape__texto">2022 - Todos os direitos reservados</span></h2>
+      <ul class="lista-rodape">
+        <li class="lista-rodape__titulo">Nos siga nas redes sociais</li>
+
+        <li class="lista-rodape__item">
+          <img src="./img/Instagram.png" alt="Instagram da Stop 4All" />
+          <a href="#" class="lista-rodape__link">Instagram da Stop 4All</a>
+        </li>
+        <li class="lista-rodape__item">
+          <img src="./img/facebook.png" alt="Facebook da Stop 4All" />
+          <a href="#" class="lista-rodape__link">Facebook da Stop 4All</a>
+        </li>
+      </ul>
+
+      <ul class="lista-rodape">
+        <li class="lista-rodape__titulo">Saiba Mais</li>
+        <li class="lista-rodape__item">
+          <img src="./img/LogoPequeno.png" alt="Logo da Stop 4All" />
+          <a href="#" class="lista-rodape__link">Sobre a Stop 4All</a>
+        </li>
+
+      </ul>
+      </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
+  </body>
+</html>
